@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>POTLAND | Portlands #1 Marijuana Delivery Service</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="POTLAND supplies high quality, top shelf cannabis and cannabis medications at the 
+                best prices to Portland every day! We offer an extensive menu of high quality and 
+                highly tested medications.  Our staff is abundantly knowledgeable and welcoming; our 
+                delivery drivers are punctual and discreet. POTLAND is sincerely dedicated to 
+                maintaining and providing our members with the utmost premier standards of quality and 
+                integrity in the industry!">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="https://thepotland.co/favicon.ico" type="image/x-icon">
+        <meta property="og:title" content="POTLAND">
+        <meta property="og:site_name" content="POTLAND">
+        <meta property="og:url" content="http://www.thepotland.co">
+        <meta property="og:description" content="POTLAND - Portlands best dispensory">
+        <meta property="og:image" content="">
+        <meta property="og:type" content="website">
+        <!-- Global and page level js -->
+        <!-- global scripts -->
+<script src="https://thepotland.co/js/lib/jquery/jquery-2.1.4.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ 
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.20/r-2.2.3/datatables.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74670065-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- end globals -->
+<!-- page level scripts -->
+    <script src="https://thepotland.co/js/home/homepage.js"></script>
+
+<!-- end page level scripts -->        <!-- App level js -->
+        <!-- global styles -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" >
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.20/r-2.2.3/datatables.min.css"/>
+
+<link media="all" type="text/css" rel="stylesheet" href="https://thepotland.co/css/home/homepage.css">
+
+<link media="all" type="text/css" rel="stylesheet" href="https://thepotland.co/css/home/home.css">
+
+<!-- end globals -->
+<!-- page level styles -->
+<!-- end page level styles -->    </head>
+    <body>
+        <div class="wrapper">
+            <nav class="navbar navbar-default navbar-static-top">
+    <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="https://thepotland.co/images/drip_logo_sm.jpg" alt="logo"/></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="https://thepotland.co">Home</a></li>
+                <li><a href="https://thepotland.co#menu">Menu</a></li>
+                <li><a href="https://thepotland.co/hours">Hours</a></li>
+                <li><a href="https://thepotland.co/about">About</a></li>
+                <li><a target="_blank" href="https://blog.thepotland.co">Blog</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>            <div class="jumbotron text-center">
+    <div class="container">
+        <img src="images/jumbo_potland_logo.png" alt="The Potland Logo">
+    </div>
+</div>
+<div class="container-fluid banner dark">
+    <h1 style="padding-bottom:0px">POUND FOR POUND THE DOPEST IN TOWN<br /><strong>503-432-8629</strong></h1>
+    <h1>1761 NE. Dekum St. Portland, OR<br /> Open 7 Days a Week</h1>
+</div>
+<div class="container-fluid border-top spacer-bottom callout">
+    <h1 class="text-center">YOU MUST BE <strong>AT LEAST 21</strong> YEARS OF AGE</h1>
+</div>
+<div class="container-fluid header" id="specials">
+    <h2 class="light">
+        Daily Specials 
+        <span class="glyphicon glyphicon-collapse-down" id="menuToggle"></span>
+    </h2>
+    <div id="week" class="row collapse">
+        <div class="col-xs-12 col-md-12">
+            <p>
+                Veterans and Seniors enjoy 10% off all items <strong>every day!</strong><br />
+		Spring blow out! 20-40% off most flower while supplies last!
+            </p>
+        </div> 
+    <div class="visible-md-block visible-lg-block visible-xl-block">
+    <div style="display:inline-flex!important">
+        <div class="day col-xs-12 col-md-2" data-day="0">
+            <h2 class="light">
+                Sunday
+            </h2>
+            <p>
+                 20% off the entire store
+            </p>
+        </div>
+        <div class="day col-xs-12 col-md-2" data-day="1">
+            <h2 class="light">
+                Monday
+            </h2>
+            <p>
+                 20% off all edibles & tinctures
+            </p>
+        </div>
+        <div class="day col-xs-12 col-md-2" data-day="2">
+            <h2 class="light">
+                Tuesday
+            </h2>
+            <p>
+               $25 top shelf 1/8ths
+            </p>
+        </div>
+        <div class="day col-xs-12 col-md-2" data-day="3">
+            <h2 class="light">
+                Wednesday
+            </h2>
+            <p>
+                20% off all concentrates and cartridges
+            </p>
+        </div>
+        <div class="day col-xs-12 col-md-2" data-day="4">
+            <h2 class="light">
+                Thursday
+            </h2>
+            <p>
+                20% off all flower
+            </p>
+        </div>
+        <div class="day col-xs-12 col-md-2" data-day="5">
+            <h2 class="light">
+                Friday
+            </h2>
+            <p>
+                20% off all topicals & tinctures 
+            </p>
+        </div>
+        <div class="day col-xs-12 col-md-2" data-day="6">
+            <h2 class="light">
+                Saturday
+            </h2>
+            <p>
+                 20% off all concentrates & cartridges
+            </p>
+        </div>
+    </div>
+    </div>
+    <div class="visible-xs-block visible-sm-block">
+    <div class="day col-xs-12 col-md-2" data-day="0">
+            <h2 class="light">
+                Sunday
+            </h2>
+            <p>
+                 20% off the entire store
+            </p>
+        </div>
+        <div class="day col-xs-12 col-md-2" data-day="1">
+            <h2 class="light">
+                Monday
+            </h2>
+            <p>
+                 20% off all edibles & tinctures
+            </p>
+        </div>
+        <div class="day col-xs-12 col-md-2" data-day="2">
+            <h2 class="light">
+                Tuesday
+            </h2>
+            <p>
+                $25 top shelf 1/8ths
+            </p>
+        </div>
+        <div class="day col-xs-12 col-md-2" data-day="3">
+            <h2 class="light">
+                Wednesday
+            </h2>
+            <p>
+                20% off all concentrates and cartridges
+            </p>
+        </div>
+        <div class="day col-xs-12 col-md-2" data-day="4">
+            <h2 class="light">
+                Thursday
+            </h2>
+            <p>
+                20% off all flower
+            </p>
+        </div>
+        <div class="day col-xs-12 col-md-2" data-day="5">
+            <h2 class="light">
+                Friday
+            </h2>
+            <p>
+                20% off all topicals & tinctures 
+            </p>
+        </div>
+        <div class="day col-xs-12 col-md-2" data-day="6">
+            <h2 class="light">
+                Saturday
+            </h2>
+            <p>
+                 20% off all concentrates & cartridges
+            </p>
+    </div>
+    </div>
+    </div>
+</div>
+<div class="container spacer-top spacer-bottom" id="menu">
+    <div><script async="" id="dutchie--embed__script" src="https://dutchie.com/api/v2/embedded-menu/5ecc04add6022863de3d517e.js"></script></div>
+                    <!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content text-center">
+                <div class="modal-header header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h2 class="light modal-title" id="myModalLabel"></h2>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive center-block" alt="image">
+                    <div>
+                        <p id="modal-text"></p>
+                    </div>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+</div>
+            <div class="push"></div>
+        </div>
+        <footer class="footer">
+        <p class="text-muted text-center light">
+            This website is not intended to be viewed by anyone under the age of 21. Content at 
+            thepotland.co is not intended to promote any activity that 
+            is illegal under Oregon law.
+        </p>
+        <p class="text-muted text-center light">
+                &copy;<strong>POTLAND</strong> 2025, All Rights Reserved.<br />
+                 <a href="https://thepotland.co/contact">Contact</a> | <a href="#">Go to Top</a>
+        </p>
+</footer>
+    </body>
+</html>
