@@ -1,0 +1,344 @@
+/* Spacer for consistent layout */
+.spacer {
+  padding: 60px 20px; /* Adds space around the section */
+  background-color: #f5f5f5; /* Neutral background to distinguish the section */
+}
+
+/* Mission Statement Styling */
+.mission-statement {
+  background: linear-gradient(to bottom, #e8f5e9, #ffffff); /* Soft gradient */
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 0 auto; /* Centers the section */
+}
+
+.mission-statement .content-container {
+  margin: 0 auto;
+}
+
+.mission-statement h2 {
+  font-size: 2.5em;
+  color: #2e7d32; /* Deep green */
+  margin-bottom: 20px;
+}
+
+.mission-statement p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.mission-statement .cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  background-color: #28a745; /* Green */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.mission-statement .cta-button:hover {
+  background-color: #1e7d32; /* Darker green */
+}
+
+.blog-promotion {
+  background-color: #f9f9f9; /* Light background for contrast */
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+.blog-heading {
+  font-size: 2.5em;
+  color: #2e7d32; /* Deep green */
+  margin-bottom: 20px;
+}
+
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.blog-post {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: calc(33.333% - 20px); /* Adjust for 3 posts per row */
+  min-width: 250px;
+}
+
+.blog-post h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.blog-post a {
+  text-decoration: none;
+  color: #007bff; /* Link color */
+  transition: color 0.3s ease;
+}
+
+.blog-post a:hover {
+  color: #0056b3; /* Darker blue for hover effect */
+}
+
+.blog-post p {
+  font-size: 1em;
+  color: #555;
+}
+
+.view-all-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #28a745; /* Green button */
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.view-all-btn:hover {
+  background-color: #1e7d32; /* Darker green for hover effect */
+}
+.hashholes-section {
+  background-color: #1a1a1a; /* Dark background for contrast */
+  color: #f5f5f5; /* Light text for readability */
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 40px auto;
+  max-width: 1200px; /* Constrain width for better layout */
+}
+
+.hashholes-heading {
+  font-size: 2.5em;
+  color: #ffcc00; /* Bright yellow for attention */
+  margin-bottom: 20px;
+}
+
+.hashholes-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.hashholes-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+.hashholes-description {
+  max-width: 500px;
+  text-align: left;
+}
+
+.hashholes-description p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #1a1a1a;
+  background-color: #ffcc00; /* Bright yellow button */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ffaa00; /* Slightly darker yellow on hover */
+}
+
+/* Delivery Section Container */
+.delivery-content {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 900px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Headings */
+.delivery-content h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
+
+/* How It Works List */
+.how-it-works ol {
+  margin: 15px 0;
+  padding-left: 20px;
+  list-style-type: decimal;
+}
+
+.how-it-works li {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Delivery Details List */
+.delivery-details ul {
+  margin: 15px 0;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.delivery-details li {
+  margin-bottom: 8px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+/* FAQs Section */
+.faqs dl {
+  margin: 15px 0;
+}
+
+.faqs dt {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #333;
+  margin-top: 10px;
+}
+
+.faqs dd {
+  margin-left: 20px;
+  font-size: 1.1em;
+  color: #555;
+}
+/* General Styles for the Menu Page */
+.menu-content {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1100px;
+  background-color: #ffffff; /* White background for clarity */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Section Headings */
+.menu-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #2e7d32; /* Green for headings */
+}
+
+/* Intro Section */
+.menu-intro {
+  margin-bottom: 40px;
+  font-size: 1.2em;
+  color: #555555; /* Muted text for intro */
+}
+
+/* Featured Categories */
+.menu-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.menu-category {
+  background-color: #f9f9f9; /* Light gray card background */
+  border-radius: 8px;
+  padding: 15px;
+  width: 280px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.menu-category:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.menu-category h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #007bff; /* Blue for category titles */
+}
+
+.menu-category p {
+  font-size: 1em;
+  color: #555555;
+  margin-bottom: 10px;
+}
+
+/* Product Highlights */
+.product-highlight {
+  margin: 40px 0;
+  text-align: left;
+}
+
+.product-highlight h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333333; /* Dark gray for product titles */
+}
+
+.product-highlight p {
+  font-size: 1.1em;
+  color: #555555; /* Muted text for product details */
+  margin-bottom: 15px;
+}
+
+/* FAQs Section */
+.faqs {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.faqs h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #2e7d32; /* Green for FAQ headings */
+}
+
+.faqs dt {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #333333;
+}
+
+.faqs dd {
+  margin-left: 20px;
+  font-size: 1em;
+  color: #555555;
+  margin-bottom: 10px;
+}
+
+
+
+
